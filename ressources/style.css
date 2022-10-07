@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "Biko";
+    src: url("../ressources/Biko.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Biko",Calibri, sans-serif;
+}
+html{
+    background-color: #0660df;
+}
+h1{
+    display : none
+}
+header img {
+    width: 12%;
+    margin-right:150px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color:#2c75ff ;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+.coller {
+    padding-left: 3px;
+}
+.coller2 {
+    padding-right: 3px;
+}
+
+nav ul li a{
+    color:#FFFF00;
+}
+#voiture{
+    margin:30px 10px 10px 30px;
+    width:1800px;
+    
+}
+#voiture #nom{
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:10px 10px 20px 20px;
+    background-image: url("../ressources/pattern.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#voiture #nom h2{
+    margin-bottom:10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+#voiture #nom #img img { 
+    width:30%;
+    height:397px;
+    border-radius: 15px;
+}
+
+#voiture #nom #img {
+    display:flex; 
+}
+.prix{
+    padding-left: 20px;
+    position: relative;
+}
+.prix h3 {
+    font-size: 3rem;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.description p {
+    margin-right: 100px;
+    margin-left:100px;
+    margin-top :40px;
+    font-size: 1.9rem;
+}
+
+.btn_acheter {
+    transition: 0.5s;
+    padding: 20px 30px 20px 30px;
+    border: 5px solid #FFFF00;
+    border-radius: 15px;
+    color: #000;
+    position: absolute;
+    top: 320px;
+    right: 20px;
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+#titre h2{
+    font-size:2rem;
+    margin-left:50px;
+    margin-top:50px;
+}
+.btn_acheter:hover {
+    transition: 0.5s;
+    background-color: #FFFF00;
+    border: 5px solid #b0b000;
+}
+.formulaire{
+    margin-top:50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.formulaire p {
+    margin-left: 100px;
+}
+.formulaire p a {
+    color:#FFFF00;
+}
+
+.form{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right:100px;
+    border-right:2px solid #FFFF00;
+}
+.form2{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulaire input{
+    height:25px;
+    width:300px;
+    font-size:1.2rem;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.formulaire .btn{
+    height:25px;
+    width:150px;
+}
+.formulaire select{
+    height:25px;
+    width:300px;
+    margin-bottom:15px;
+    margin-top:15px;
+    font-size: 1.2rem;
+}
+#panier{
+    width: 1200px;
+    display : flex;
+    margin: 0 auto;
+    text-align :center;
+    flex-direction: column;
+    margin-top:100px;
+}
+table tr td {
+    width:400px;
+    height:50px;
+    font-size:1.5rem;
+    padding-left:15px;
+    background-color: #fff;
+}
+table tr td button{
+    width:50%;
+    height: 50%;
+}
+#prix_panier{
+    font-size: 2rem;
+    padding-top:30px;
+    display: flex;
+    justify-content: flex-end;
+}
+#prix_panier h3{
+    padding-right:10px;
+}
+
+#prix_panier input{
+    width:100px;
+    height:50px;
+    font-size: 1.5rem;
+}
+#compte{
+    display : flex;
+    justify-content:space-around;
+    font-size: 1.5rem;
+    margin-top:40px;
+}
+#compte .commande{
+    padding-right:40px;
+    
+}
+#compte .info {
+    padding-left:40px;
+}
+#compte .info p{
+    margin-top:20px;
+}
+#compte .changement{
+    font-size: 1.8rem;
+}
+#compte h2{
+    font-size: 2.5rem;
+    margin-bottom:20px;
+}
+#compte .changement input{
+    height:25px;
+    width:300px;
+    font-size:1.2rem;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+footer {
+    padding-top:10px;
+    text-align: center;
+    margin-bottom:5px;
+}
